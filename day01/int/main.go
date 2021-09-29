@@ -23,8 +23,9 @@ func main() {
 	fmt.Printf("%T\n", i3)
 
 	// 声明int8的类型
+	// 明确指定类型
 	i4 := int8(9)
 	fmt.Printf("%d\n", i4)
-
+	fmt.Printf("%T\n", i4)
 
 }
